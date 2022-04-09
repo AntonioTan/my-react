@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 class Welcome extends Component {
-
-    
     constructor() {
         super();
         this.state = { 
@@ -16,6 +14,12 @@ class Welcome extends Component {
         }, ()=>{
             console.log(this.state.welcome);
         });
+    }
+    static getDerivedStateFromProps() {
+        return null;
+    }
+    componentDidMount() {
+        console.log("component mount");
     }
     render() { 
         // const {welcome} = this.state;
