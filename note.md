@@ -36,3 +36,7 @@
 * ref can be used to control jsx element
 #### Lecture 29
 * ref can be used to control class component but not functional component
+#### Lecture 30
+* with forward ref, parent component can control the jsx element of child component
+#### Lecture 31
+* portal can create element outside of paretn dom tree which is quite useful in some floating scenario
