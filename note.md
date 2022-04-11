@@ -26,3 +26,6 @@
 * ensure all its children are pure component
 * pure component has shallow comparison for props and state in shouldComponentUpdate function while component always return true
 * never mutate state in pure component. instead, return a new one as shallow comparison won't find out the variable has changed if it refers to the same object
+#### Lecture 27
+* Memo component accepts functional component as parameter
+* the memo component won't rerender if its props are not changed
