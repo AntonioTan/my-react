@@ -29,3 +29,10 @@
 #### Lecture 27
 * Memo component accepts functional component as parameter
 * the memo component won't rerender if its props are not changed
+#### Lecture 28
+* two ways to create ref
+* 1. use React.createRef function
+* 2. use callback create ref function
+* ref can be used to control jsx element
+#### Lecture 29
+* ref can be used to control class component but not functional component
